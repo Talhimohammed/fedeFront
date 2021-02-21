@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+} 
+
+.dash {  
+   
+
+   font-size: 80px ;  
+   color: aliceblue ; 
+   margin: 0 auto; 
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   margin-left: auto;
+   margin-right: auto
+}
+
+.container { 
+   
+    background-color : brown ; 
+    height: 20vh ; 
+    width: 100% ;   
+    align-items: center ; 
+    display: flex ; 
+
+} 
+
+@media screen and (max-width: 1024px)
+{   .dash
+      {
+        font-size: 8vh ;
+        
+      }
 }
